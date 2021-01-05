@@ -13,20 +13,20 @@ const Navbar = () => {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul classNameName="Navbar-links navbar-nav mr-auto">
-            <li classNameName="Navbar-link nav-item">
+          <ul className="Navbar-links navbar-nav mr-auto">
+            <li className="Navbar-link nav-item">
               <Link to="/">
                 About Me
               </Link>
             </li>
 
-            <li classNameName="Navbar-link nav-item">
+            <li className="Navbar-link nav-item">
               <Link to="/projects">
                 View Projects
               </Link>
             </li>
 
-            <li classNameName="Navbar-link nav-item">
+            <li className="Navbar-link nav-item">
               <Link to="/contact">
                 Contact
               </Link>
@@ -39,4 +39,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
