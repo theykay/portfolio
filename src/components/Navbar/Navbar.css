@@ -25,4 +25,5 @@
 
 nav {
   background: linear-gradient(to right, #FFCED9, #B5AEEC);
+  position: fixed;
 }
