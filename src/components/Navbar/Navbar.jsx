@@ -15,19 +15,19 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="Navbar-links navbar-nav mr-auto">
             <li className="Navbar-link nav-item">
-              <Link to="/">
+              <Link to="/portfolio/">
                 About Me
               </Link>
             </li>
 
             <li className="Navbar-link nav-item">
-              <Link to="/projects">
+              <Link to="/portfolio/projects">
                 View Projects
               </Link>
             </li>
 
             <li className="Navbar-link nav-item">
-              <Link to="/contact">
+              <Link to="/portfolio/contact">
                 Contact
               </Link>
             </li>
